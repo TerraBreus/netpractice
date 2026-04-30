@@ -114,3 +114,4 @@ When a package (a data packet) leaves your house for a destination across the wo
 ---
 
 # Explanations.
+Again, not necessary per the subject's requirement but some say active recalling is the best way of learning.
