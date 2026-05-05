@@ -115,3 +115,39 @@ When a package (a data packet) leaves your house for a destination across the wo
 
 # Explanations.
 Again, not necessary per the subject's requirement but some say active recalling is the best way of learning.
+
+- IP adress
+    Oversimplified, an IP adress is a location within a network. Think of it as a housenumber in a street. The number alone does not say much, but within a network it suddenly becomes useful.
+    
+    To complicate things a little an IP adress usually contains a network ID and a host ID. But for that we need to know what masks are.
+
+- (sub)Network
+    A network is a collection of digital devices communicating with each other. Within a Network, we can have smaller networks called sub-networks. Think of it as roads connecting houses. A street is a (sub)network just as a city is a network. 
+
+- Masks
+    A mask allows us for the whole package. In reality it is a 32bit number used to differentiate the network ID from the host ID. If this sounds difficult, don't worry. It is. 
+
+    IP ADRESS
+
+    `192.168.2.4`
+
+    MASK
+
+    `255.255.0.0`
+
+    Basically says that the first two numbers cannot be changed; they are part of the network. The two zero's in the mask tell us that the two final numbers in the IP adress can have all 255 values. That means that this network has 255^2 different possible host ID's. Still difficult? Don't worry. It is.
+
+- Packet
+    A packet is a bit of digital information that is send through a network in order to communicate. It contains a payload and a header. If we see this as an oldschool mail, the payload is the content and the header is the adress written on the mail for all to see.
+
+- Switch
+    A switch allows multiple computers to be hooked up to the same network. It is analogue to a crossroad. Instead of needing individual connections between every digital device, you can pass them to a switch. That switch will then keep track of every devices that is connected to it and send the packet to the right device (by checking the MAC adress (nvm) and the host ID).
+
+- Router
+    This is a little more tricky. Routers allow for different networks to communicate with each other. If you think of it in terms of roads, where switches are the crossroads between streets, routers are the highways between cities. Routers work with routing tables. These are a list of places where the packets (of digital information) can go in order to reach their destination.
+- Destination
+    Every packet send from a digital device is meant for another specific digital device. The IP adress of the receiving digital device is called to be the destination of the packet.
+- Next Hop
+    Routing tables have Next hops. This simply means where the packet needs to go next in order to reach their final destination.
+- 0.0.0.0/0
+    Every routing table could use a default gateway. If it does not know the next hop for a specific destination, it sends it to the next hop of the default gateway.
