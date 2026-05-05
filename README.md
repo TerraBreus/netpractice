@@ -36,10 +36,22 @@ You shall be given the first puzzle. Once completed you are allowed to the next 
 
 # Resources.
 ### **Crash Course on Computer Science:**
-Technically this stuff doesn't help you solve the NetPractice puzzles, but I believe it is what they wanted to teach you underneath. It is a thousand times more useful when trying to understand InterComputorNetworkCommunication.
+Technically this stuff doesn't help you solve the NetPractice puzzles, but I believe it is what they wanted to teach you underneath. It is a thousand times more useful when trying to understand InterComputorNetworkCommunication. (also, they are extremely well made)
    - [Episode 30: Computer Networks](https://www.youtube.com/watch?v=3QhU9jd03a0)
    - [Episode 31: The Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8)
    - [Episode 32: World Wide Web](https://www.youtube.com/watch?v=guvsH5OFizE)
+
+### Websites
+The Requirements for the README state I must explicitly mention the networking concepts studied such as TCP/IP addressing, subnet masks, default gateways, routers, switches, OSI layers, etc. Some of these concepts are useful for this exercise, but most of it sounds like AI slop and does not tie nicely to the actual project itself. 
+
+But alas, requirements are requirements. So here's a list of website where you can read information on topics that will broaden your knowledge on Networking but won't actually help you with this specific project.
+
+(hint: The Crash Course on Computer Science teach alot of these topics already!)
+
+- [Wikipedia article on OSI layers](https://en.wikipedia.org/wiki/OSI_model#Layer_architecture)
+- [Wikipedia article on subnetting](https://en.wikipedia.org/wiki/Subnet)
+- [Carolina Daniel's Repo on NetPractice](https://github.com/caroldaniel/42sp-cursus-netpractice)
+
 ### The Log.
 NetPractice gives you a log. This log is useful. Use it.
 
